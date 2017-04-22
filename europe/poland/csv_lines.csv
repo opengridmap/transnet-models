@@ -47,7 +47,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 46,246808675,237133326,110000,3,line,50,110kV Kutno - Sklęczki,Energa,9535.0,,,,,
 47,246808675,246716772,110000,6,line,50,110kV Sklęczki - PKP Kutno,PKP Energetyka,1678.0,,,,,Yes
 48,246808675,280896052,110000,3,line,50,110kV Gostynin - Sklęczki / Kutno,Energa,25863.0,,,,,
-49,172761192,29098336,110000,3,line,50,Grójec - Piaseczno,,37795.0,,,,,
+49,172761192,29098336,110000,3,line,50,110 kV Grójec - Piaseczno,,37795.0,,,,,
 50,172761192,173582810,110000,3,line,50,110kV Kozienice - Warka-110kV Warka - Grójec,,55841.0,,,,,
 51,172761192,321541394,110000,6,line,50,-110kV Warka - Grójec,,22553.0,,,,,Yes
 52,301326450,179138441,110000,3,line,,110kV Świebodzice - Uczniowska,,7220.0,,,,,
@@ -123,7 +123,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 122,280715542,280706370,110000,3,line,,110kV Kępno - Kostów,,20432.0,,,,,
 123,280715543,280706370,110000,,line,,110kV Kępno - Kępno Wschód,,6327.0,,,,,
 124,280715543,280715545,110000,3,line,,110kV Kępno Wschód- Wieruszów,,11635.0,,,,,
-125,280715544,171917072,110000,,line,,110kV Trębaczew - Wieluń,,31558.0,,,,,
+125,280715544,171917072,110000,6,line,,110kV Trębaczew - Wieluń-2 x 110kV Trębaczew - Wieluń,,31558.0,,,,,
 126,280715544,173900920,110000,,line,,110kV Wieluń - Złoczew,,23645.0,,,,,
 127,280715544,280715545,110000,3,line,,110kV Wieluń - Wieruszów,,31498.0,,,,,
 128,280715544,307128667,110000,,line,,110kV Wieluń - Janinów,,34794.0,,,,,
@@ -500,7 +500,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 499,60892095,266910341,110000,3,line,,110kV Kowale - Chełm,,9564.0,,,,,
 500,170247108,170247109,110000,3,line,,110kV Abramowice - Elektrownia odg.Dziesiąta-110kV Abramowice - Lublin Elektrownia,,5222.0,,,,,Yes
 501,170247109,170247110,110000,3,line,,110kV Lublin Elektrownia - Śródmieście,,2347.0,,,,,
-502,170247110,170242055,110000,3,line,,110kV Lublin Śródmieście - Wrotków,,5296.0,,,,,
+502,170247110,170242055,110000,3,line,,110kV Lublin Śródmieście - Wrotków,,5295.0,,,,,
 503,319833038,166710856,110000,,line,,110kV Tarnów - Tuchów,,11583.0,,,,,
 504,153838553,238566191,110000,6,line,,2 x 110kV Łośnice - Pohulanka,,15642.0,,,,,
 505,153838553,316954495,110000,3,line,,110kV Łośnice - Półwyroby,,1225.0,,,,,
@@ -626,10 +626,10 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 625,29115701,147754417,110000,6,line,,110kV Mory - Ochota--110kV Mory - Ochota/Południowa,,11621.0,,,,,Yes
 626,29115701,172264481,110000,6,line,,110kV Mory - Ochota--110kV Mory - Ochota/Południowa,,9708.0,,,,,Yes
 627,29115701,89434732,220000,6,line,50,-220kV + 110kV Mory - Towarowa-110kV Mory - Towarowa,,7991.0,,,,,Yes
-628,297714999,180564461,110000,3,line,,110kV Kalinówka - Grodowiec,,6567.0,,,,,
+628,297714999,180564461,110000,3,line,,110kV Kalinówka - Grodowiec,,6573.0,,,,,
 629,307348796,313724294,110000,,line,,110kV Latoszyn - Stomil [1],,2033.0,,,,,
 630,277456194,278569577,110000,,line,,110kV Sławno - Sianów,,28226.0,,,,,
-631,180675916,180686867,110000,3,line,50,110kV Wschowa - Brzegowa,,25587.0,,,,,
+631,180675916,180686867,110000,3,line,50,110kV Wschowa - Brzegowa,,25522.0,,,,,
 632,143484238,353409242,110000,3,line,50,110kV Toruń Elana - Łysomice,Energa,9140.0,,,,,
 633,143484238,256234761,110000,3,line,50,110kV Toruń Elana - Lubicz,Energa,8289.0,,,,,
 634,143484238,26227000,110000,4,line,50,110kV Toruń Elana - Toruń Północ,Energa,5651.0,,,,,
@@ -685,7 +685,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 684,101058023,172637631,110000,6,line,,110kV Henryków - Tarchomin--110kV Huta - EC Żerań / Henryków - Tarchomin-110kV Huta - EC Żerań / Łomianki - Henryków-110kV Mościska - Łomianki / Huta - EC Żerań-110kV Mościska - Łomianki-110kV Tarchomin - EC Żerań / Henryków,,11471.0,,,,,Yes
 685,101058023,172636602,110000,6,line,,110kV Henryków - Tarchomin-110kV Henryków - Tarchomin / Łomianki-110kV Henryków - Łomianki-110kV Huta - EC Żerań / Henryków - Tarchomin-110kV Tarchomin - EC Żerań / Henryków,,3497.0,,,,,Yes
 686,101058023,25898809,110000,6,line,,110kV Henryków - Tarchomin-110kV EC Żerań - Huta / Tarchomin-110kV Huta - EC Żerań-110kV Tarchomin - EC Żerań / Henryków,,3617.0,,,,,Yes
-687,189875690,171880686,110000,,line,,110kV Stobiecko - Radomsko Młodzowy,,2394.0,,,,,
+687,189875690,171880686,110000,,line,,110kV Wrzosowa - Radomsko Młodzowy-2 x 110kV Stobiecko - Radomsko Młodzowy / Wrzosowa,,28219.0,,,,,
 688,402146796,224201997,110000,,line,,,,3303.0,,,,,
 689,170706413,170706843,110000,3,line,,-110kV Brzezińska - Źródłowa,,2913.0,,,,,
 690,306488816,264013464,110000,3,line,,110kV Nysa Orlęta - Grodków-110kV Orlęta - Grodków odg. Bielice,,38030.0,,,,,
@@ -728,7 +728,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 727,247883294,322014377,110000,3,line,,Linia 110kV Bircza - Przemyśl,,33029.0,,,,,
 728,303449633,307109661,110000,3,line,,110kV Sowczyce - Olesno,,8044.0,,,,,
 729,303449633,242619647,110000,3,line,,110kV Kluczbork - Olesno,,21195.0,,,,,
-730,35366436,129273926,110000,3,line,,110kV Janów - Radogoszcz,,14031.0,,,,,
+730,35366436,129273926,110000,3,line,,110kV Janów - Radogoszcz,,14026.0,,,,,
 731,35366436,116936082,110000,3,line,,,,22255.0,,,,,
 732,35366436,116545573,110000,3,line,,,,19289.0,,,,,
 733,85698089,188455229,110000,3,line,,110kV Bukowno - Cieśle,,12258.0,,,,,
@@ -780,7 +780,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 779,248088248,198848393,110000,6,line,,Głogów - Boguchwała- Baranówka - Staroniwa-110kV-Rzeszów Systemowa (Widełka) - Baranówka- Baranówka - Staroniwa-Głogów - Boguchwała-Rzeszów Baranówka - Staroniwa-Rzeszów Systemowa (Widełka) - Baranówka,PGE Dystrybucja S.A. Oddział Rzeszów,4154.0,,,,,Yes
 780,248088248,198635989,110000,6,line,,110kV-Głogów - Boguchwała-Rzeszów Systemowa (Widełka) - Baranówka- Baranówka - Staroniwa-Rzeszów Systemowa (Widełka) - Baranówka-Głogów - Boguchwała- Baranówka - Staroniwa,PGE Dystrybucja S.A. Oddział Rzeszów,9218.0,,,,,Yes
 781,248088248,215282393,110000,6,line,,110kV-Rzeszów Systemowa (Widełka) - Baranówka- Baranówka - Staroniwa-110kV Rzeszów Systemowa (Widełka) - Baranówka-Rzeszów Systemowa (Widełka) - Baranówka- Głogów-Rzeszów Systemowa (Widełka) - Baranówka- Głogów - Boguchwała-Rzeszów Systemowa (Widełka) - Baranówka,PGE Dystrybucja S.A. Oddział Rzeszów,22540.0,,,,,Yes
-782,248088248,333555950,110000,6,line,,110kV-Rzeszów Systemowa (Widełka) - Baranówka- Głogów - Boguchwała-Rzeszów Systemowa (Widełka) - Baranówka- Baranówka - Staroniwa-Rzeszów Systemowa (Widełka) - Baranówka-Głogów - Boguchwała,PGE Dystrybucja S.A. Oddział Rzeszów,10709.0,,,,,Yes
+782,248088248,333555950,110000,6,line,,110kV-Rzeszów Systemowa (Widełka) - Baranówka- Głogów - Boguchwała-Rzeszów Systemowa (Widełka) - Baranówka- Baranówka - Staroniwa-Rzeszów Systemowa (Widełka) - Baranówka-Głogów - Boguchwała,PGE Dystrybucja S.A. Oddział Rzeszów,10715.0,,,,,Yes
 783,248088254,50778337,110000,3,line,,110kV Stalowa Wola - Sandomierz odg. Gorzyce-110kV Stalowa Wola - Sandomierz,,40092.0,,,,,
 784,248088255,248088259,110000,,line,,110kV Stalowa Wola - RPZ0,,1814.0,,,,,
 785,248088255,285299467,110000,3,line,,110kV Stalowa Wola - Janów Lubelski,,33594.0,,,,,
@@ -893,7 +893,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 892,281487316,203943062,110000,3,line,50,110kV Piła Krzewina - Złotów-110kV Krzewina - Piła Północ,,41817.0,,,,,
 893,281487316,238640596,110000,6,line,50,110kV Piła Krzewina - Złotów- 110kV Krzewina - Piła Północ-110kV Piła Krzewina - Złotów,,35260.0,,,,,Yes
 894,305399765,297752033,110000,3,line,,110kV Prochowice - Środa Śląska,,20816.0,,,,,
-895,305399765,181728829,110000,3,line,,110kV Leśnica - Środa Śląska,,26406.0,,,,,Yes
+895,305399765,181728829,110000,3,line,,110kV Leśnica - Środa Śląska,,26405.0,,,,,Yes
 896,316024790,100027950,110000,3,line,,110kV EC Bielsko - Mikuszowice-110kV EC Bielsko - Szczyrk,,17619.0,,,,,
 897,35014308,25724386,110000,6,line,,-EC Siekierki - Gocław-110kV Wschodnia - Grochów,,11431.0,,,,,Yes
 898,35014308,25714511,110000,6,line,,-EC Siekierki - Gocław-110kV Wschodnia - Grochów,,2331.0,,,,,Yes
@@ -1271,7 +1271,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 1270,179940682,172636805,110000,3,line,,110kV Jelcz - Oława,,18547.0,,,,,
 1271,109456730,170857730,110000,3,line,,-110kV Łódź EC-4 - Dąbrowska-110kV Lodowa - Starorudzka,,6340.0,,,,,
 1272,170249563,170242054,110000,3,line,,110kV Abramowice - Lublin EC2,,3735.0,,,,,
-1273,170249563,170242055,110000,3,line,,110kV Abramowice - Lublin Wrotków,,5221.0,,,,,
+1273,170249563,170242055,110000,3,line,,110kV Abramowice - Lublin Wrotków,,5223.0,,,,,
 1274,170249563,171367684,110000,3,line,,110kV Abramowice - Bełżyce,,24362.0,,,,,
 1275,170249563,195548657,110000,3,line,,110kV Abramowice - Bychawa,,22211.0,,,,,
 1276,170249563,87257716,110000,3,line,,110 kV Abramowice - Świdnik,,12239.0,,,,,
@@ -1641,7 +1641,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 1640,252122721,199098055,110000,,line,,110kV Radkowice - Cementownia Nowiny II (1),,2096.0,,,,,
 1641,32036484,180795394,110000,6,line,50,110kV Poznań Południe - Górczyn-110kV Plewiska - Luboń-110kV Plewiska - Luboń- 110kV Plewiska - Górczyn-110kV Plewiska - Górczyn-110kV Poznań Południe - Luboń-110kV Poznań Południe - Górczyn- 110kV Plewiska - Luboń,,7499.0,,,,,Yes
 1642,32036484,131120723,110000,6,line,50,110kV Poznań Południe - Górczyn-110kV Plewiska - Luboń-110kV Plewiska - Luboń- 110kV Plewiska - Górczyn-110kV Plewiska - Górczyn-110kV Poznań Południe - Górczyn- 110kV Poznań Południe - Luboń-110kV Poznań Południe - Górczyn- 110kV Plewiska - Luboń,,11297.0,,,,,Yes
-1643,32036484,180934748,110000,6,line,50,110kV Plewiska - Górczyn- 110kV Górczyn - Luboń-110kV Plewiska - Luboń-110kV Plewiska - Luboń- 110kV Plewiska - Górczyn-110kV Plewiska - Górczyn-110kV Poznań Południe - Górczyn- 110kV Plewiska - Górczyn,,7738.0,,,,,Yes
+1643,32036484,180934748,110000,6,line,50,110kV Plewiska - Górczyn- 110kV Górczyn - Luboń-110kV Plewiska - Luboń-110kV Plewiska - Luboń- 110kV Plewiska - Górczyn-110kV Plewiska - Górczyn-110kV Poznań Południe - Górczyn- 110kV Plewiska - Górczyn,,7736.0,,,,,Yes
 1644,32036484,211965900,110000,3,line,50,110kV Plewiska - Duszniki,,26411.0,,,,,
 1645,178787992,177749653,110000,3,line,,110kV Boguszów - Marciszów,,16242.0,,,,,
 1646,178787992,178781971,110000,3,line,,110kV Marciszów - Kamienna Góra,,6909.0,,,,,
@@ -1867,8 +1867,8 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 1866,293484891,216060722,220000,6,line,50,220 kV Rogowiec - Joachimów-220 kV Rogowiec - Joachimów tor 1-220kV Joachimów - Aniołów-220kV Rogowiec - Joachimów tor 2,,81786.0,,,,,Yes
 1867,293484891,241842600,220000,6,line,50,2 x 220 kV Rogowiec - Joachimów 1 + Joachimów - Aniołów-220 kV Rogowiec - Joachimów 1-220 kV Rogowiec - Joachimów-220 kV Rogowiec - Joachimów tor 1-220kV Rogowiec - Joachimów tor 2,,78081.0,,,,,Yes
 1868,180824706,32036484,220000,3,line,50,220kV Plewiska - Czerwonak,,30454.0,,,,,
-1869,32036484,442179236,220000,6,line,50,220kV Plewiska - Leszno-220kV Plewiska - Polkowice- 220kV Plewiska - Leszno-220kV Plewiska - Polkowice-220kV Polkowice - Leszno- 220kV Plewiska - Polkowice,,116356.0,,,,,Yes
-1870,32036484,148197330,220000,6,line,50,220kV Plewiska - Leszno-220kV Plewiska - Polkowice- 220kV Plewiska - Leszno-220kV Plewiska - Leszno- 220kV Polkowice - Leszno-220kV Polkowice - Leszno-220kV Plewiska - Polkowice,,64841.0,,,,,Yes
+1869,32036484,442179236,220000,6,line,50,220kV Plewiska - Leszno-2 x 220kV Plewiska - Polkowice + Plewiska - Leszno-220kV Plewiska - Polkowice-220kV Polkowice - Leszno- 220kV Plewiska - Polkowice,,116356.0,,,,,Yes
+1870,32036484,148197330,220000,6,line,50,220kV Plewiska - Leszno-220kV Polkowice - Leszno-220kV Plewiska - Leszno- 220kV Polkowice - Leszno-2 x 220kV Plewiska - Polkowice + Plewiska - Leszno-220kV Plewiska - Polkowice,,64841.0,,,,,Yes
 1871,32036484,238640596,220000,3,line,50,220kV Plewiska - Piła Krzewina,,60397.0,,,,,
 1872,165763717,40062974,220000,,line,,220kV Glinki - Police,,8955.0,,,,,
 1873,133537926,187420591,220000,6,line,,220kV Byczyna - Siersza x2-220kV Byczyna - Siersza-220kV-220kV Byczyna - Skawina,,16024.0,,,,,Yes
@@ -1939,7 +1939,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 1938,145037309,216975352,220000,3,line,,220kV Konin - Sochaczew,,23622.0,,,,,
 1939,255277953,44961415,400000,3,line,,,,1104.0,,,,,
 1940,255277953,79033485,400000,6,line,50,2 x 400 kV Dobrzeń - Pasikurowice / Trębaczew-400kV Dobrzeń - Pasikurowice,,98417.0,0.025,0.25,13.7,2.6,Yes
-1941,255277953,171917072,400000,6,line,50,400kV Dobrzeń - Trębaczew + Trębaczew - Joachimów-2 x 400 kV Dobrzeń - Pasikurowice / Trębaczew-400kV Dobrzeń - Pasikurowice-400kV Dobrzeń - Trębaczew,,112099.0,0.025,0.25,13.7,2.6,Yes
+1941,255277953,171917072,400000,6,line,50,2 x 400 kV Dobrzeń - Pasikurowice / Trębaczew-2 x 400kV Dobrzeń - Trębaczew + Trębaczew - Joachimów-400kV Dobrzeń - Pasikurowice-400kV Dobrzeń - Trębaczew,,112099.0,0.025,0.25,13.7,2.6,Yes
 1942,255277953,241842600,400000,6,line,50,2 x 400 kV Dobrzeń - Pasikurowice / Trębaczew-400kV Dobrzeń - Pasikurowice-400kV Dobrzeń - Trębaczew-400 kV Trębaczew - Joachimów,,118682.0,0.025,0.25,13.7,2.6,Yes
 1943,255277953,139452056,400000,6,line,50,400kV Dobrzeń - Wielopole-400kV Nosovice - Wielopole + Dobrzeń - Wielopole-2 x 400kV Dobrzeń - Albrechtice + Dobrzeń - Wielopole-400kV Nosovice - Wielopole,,83037.0,0.025,0.25,13.7,2.6,Yes
 1944,241842600,40946784,400000,6,line,,400kV Wielopole - Joachimów-2x400kV Łagisza - Tucznawa + Rogowiec - Tucznawa-400kV Łagisza - Tucznawa-2x400kV Wielopole - Joachimów + Rogowiec - Tucznawa,,55526.0,0.025,0.25,13.7,2.6,Yes
@@ -1957,8 +1957,8 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 1956,79033485,442179231,400000,3,line,,400kV Czarna - Pasikurowice,,20900.0,,,,,
 1957,79033485,255293403,400000,3,line,,400kV Pasikurowice - Ostrów,,14588.0,,,,,
 1958,79033485,154510504,400000,3,line,,400kV Pasikurowice - Wrocław,,47547.0,,,,,
-1959,171917072,255293403,400000,6,line,,400kV Rogowiec - Trębaczew-400kV Ostrów Wlkp. - Rogowiec-400kV Ostrów Wlkp. - Rogowiec + Ostrów Wlkp. - Trębaczew-400kV Trębaczew - Ostrów Wlkp.-400kV Trębaczew - Ostrów Wlkp. + Rogowiec - Trębaczew,,67995.0,,,,,Yes
-1960,171917072,293484891,400000,6,line,,400kV Ostrów Wlkp. - Rogowiec + Rogowiec - Trębaczew-400kV Rogowiec - Trębaczew-400kV Ostrów Wlkp. - Rogowiec-400kV Trębaczew - Ostrów Wlkp.-400kV Trębaczew - Ostrów Wlkp. + Rogowiec - Trębaczew,,43806.0,,,,,Yes
+1959,171917072,255293403,400000,6,line,,2 x 400kV Trębaczew - Ostrów Wlkp. + Rogowiec - Trębaczew-400kV Rogowiec - Trębaczew-400kV Ostrów Wlkp. - Rogowiec-400kV Ostrów Wlkp. - Rogowiec + Ostrów Wlkp. - Trębaczew-400kV Trębaczew - Ostrów Wlkp.,,67995.0,,,,,Yes
+1960,171917072,293484891,400000,6,line,,2 x 400kV Trębaczew - Ostrów Wlkp. + Rogowiec - Trębaczew-400kV Rogowiec - Trębaczew-400kV Ostrów Wlkp. - Rogowiec-400kV Ostrów Wlkp. - Rogowiec + Rogowiec - Trębaczew-400kV Trębaczew - Ostrów Wlkp.,,43806.0,,,,,Yes
 1961,169979538,255314292,400000,3,line,50,,,28.0,,,,,
 1962,86494356,112614319,400000,6,line,50,2x400kV Gdańsk Błonia / Gdańsk I - Żarnowiec-400kV Gdańsk Błonia - Gdańsk I-2 x 400kV Gdańsk Błonia - Gdańsk I / Żarnowiec-400kV Gdańsk Błonia - Żarnowiec,PSE Operator oddział Bydgoszcz,75998.0,0.025,0.25,13.7,2.6,Yes
 1963,86494356,154838041,400000,9,line,50,2x400kV Gdańsk Błonia / Gdańsk I - Żarnowiec-400kV Gdańsk Błonia - Gdańsk I-2x 400kV Gdańsk I - Żarnowiec / Gdańsk Błonia + 220kV Gdańsk I - Żydowo-400kV Gdańsk Błonia - Żarnowiec,PSE Operator oddział Bydgoszcz,53095.0,0.0166666666667,0.166666666667,20.55,3.9,Yes
