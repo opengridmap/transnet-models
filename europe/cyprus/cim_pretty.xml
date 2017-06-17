@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<cim:SubGeographicalRegion rdf:ID="d05519e0-4c55-11e7-9128-02ba7def0216">
+	<cim:SubGeographicalRegion rdf:ID="04e3511c-51d9-11e7-a900-02ba7def0216">
 		<cim:SubGeographicalRegion.Region rdf:resource="#"/>
 	</cim:SubGeographicalRegion>
-	<cim:PositionPoint rdf:ID="d05522c8-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e35b62-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.4380287643</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.zPosition>1</cim:PositionPoint.zPosition>
 		<cim:PositionPoint.yPosition>35.010470275</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0552818-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e361a2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0552818-4c55-11e7-9128-02ba7def0216"/>
-	<cim:PositionPoint rdf:ID="d0552dc2-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e361a2-51d9-11e7-a900-02ba7def0216"/>
+	<cim:PositionPoint rdf:ID="04e36828-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.8814012948</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0488431874</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0553132-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e36c1a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0553132-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d05545e6-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e36c1a-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e38416-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_211687616</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d0553132-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e36c1a-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d0554834-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e386b4-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_211687616__</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d05545e6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e38416-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:BaseVoltage rdf:ID="d0554c3a-4c55-11e7-9128-02ba7def0216">
+	<cim:BaseVoltage rdf:ID="04e38b46-51d9-11e7-a900-02ba7def0216">
 		<cim:BaseVoltage.nominalVoltage>132000</cim:BaseVoltage.nominalVoltage>
 	</cim:BaseVoltage>
-	<cim:TransformerWinding rdf:ID="d055516c-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e3914a-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211687616_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -36,57 +36,57 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d0554834-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e386b4-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d055545a-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e394a6-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211687616_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d0555838-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e39910-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d055516c-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055545a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e3914a-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e394a6-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0555de2-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e39f82-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.7464112022</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.9806710995</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05561ca-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e3a356-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05561ca-4c55-11e7-9128-02ba7def0216"/>
-	<cim:GeneratingUnit rdf:ID="d0556bca-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e3a356-51d9-11e7-a900-02ba7def0216"/>
+	<cim:GeneratingUnit rdf:ID="04e3af18-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>G_82814444</cim:IdentifiedObject.name>
 		<cim:GeneratingUnit.maxOperatingP>360000000.0</cim:GeneratingUnit.maxOperatingP>
 		<cim:GeneratingUnit.nominalP>360000000.0</cim:GeneratingUnit.nominalP>
 		<cim:GeneratingUnit.genControlMode rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#GeneratorControlMode.setpoint"/>
 		<cim:GeneratingUnit.genOperatingMode rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#GeneratorOperatingMode.fixed"/>
 		<cim:GeneratingUnit.genControlSource rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#GeneratorControlSource.unavailable"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05561ca-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e3a356-51d9-11e7-a900-02ba7def0216"/>
 	</cim:GeneratingUnit>
-	<cim:SynchronousMachine rdf:ID="d0556e0e-4c55-11e7-9128-02ba7def0216">
+	<cim:SynchronousMachine rdf:ID="04e3b1b6-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>G_82814444_Dhekelia_Power_Station</cim:IdentifiedObject.name>
 		<cim:SynchronousMachine.r>0.01</cim:SynchronousMachine.r>
 		<cim:SynchronousMachine.x>0.01</cim:SynchronousMachine.x>
 		<cim:SynchronousMachine.ratedS>360000000.0</cim:SynchronousMachine.ratedS>
 		<cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SynchronousMachineOperatingMode.generator"/>
 		<cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SynchronousMachineType.generator"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:SynchronousMachine.GeneratingUnit rdf:resource="#d0556bca-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:SynchronousMachine.GeneratingUnit rdf:resource="#04e3af18-51d9-11e7-a900-02ba7def0216"/>
 	</cim:SynchronousMachine>
-	<cim:ConnectivityNode rdf:ID="d0557110-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e3b508-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_82814444_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d0557430-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e3b896-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0556e0e-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0557110-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e3b1b6-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e3b508-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0559f46-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e3eb4a-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.8109787202</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0146430302</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d055a2e8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e3ef78-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d055a2e8-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d055a8f6-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e3ef78-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e3f608-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211687616_132000_CN_82814444_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>15288.0812131</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -94,35 +94,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d055a2e8-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e3ef78-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d055ac52-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e3f9dc-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d055a8f6-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055545a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e3f608-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e394a6-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d055af86-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e3fd6a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d055a8f6-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0557110-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e3f608-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e3b508-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d055b51c-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e403e6-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.2233809961</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0655580432</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d055b86e-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e407b0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d055b86e-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d055c16a-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e407b0-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e412fa-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_211761952</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d055b86e-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e407b0-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d055c3b8-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e415de-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_211761952_132000_Ergates_Substation</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d055c16a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e412fa-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d055c804-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e41ad4-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211761952_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -130,33 +130,33 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d055c3b8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e415de-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d055cae8-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e41e26-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211761952_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d055ce44-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e421c8-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d055c804-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055cae8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e41ad4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e41e26-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d055d358-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e427ea-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.2300028426</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.1486698863</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d055d6f0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e42bb4-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d055d6f0-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d055de84-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e42bb4-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e43582-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_211840907</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d055d6f0-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e42bb4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d055e0b4-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e4380c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_211840907__</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d055de84-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e43582-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d055e500-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e43ce4-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211840907_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -164,24 +164,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d055e0b4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e4380c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d055e7d0-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e44022-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211840907_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d055eaf0-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e443b0-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d055e500-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055e7d0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e43ce4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e44022-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0562128-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e482c6-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.2331028798</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.1082707025</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05624b6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e4871c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05624b6-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d0562966-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e4871c-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e48c76-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211761952_132000_CN_211840907_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>12579.5761561</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -189,35 +189,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05624b6-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e4871c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d0562cc2-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e49036-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0562966-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055cae8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e48c76-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e41e26-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d0562fec-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e493ba-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0562966-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055e7d0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e48c76-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e44022-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05638ac-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e49db0-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.3802275405</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0788481285</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0563c08-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e4a17a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0563c08-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d05644c8-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e4a17a-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e4acd8-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_201313630</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d0563c08-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e4a17a-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d0564720-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e4af6c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_201313630_132000_Latsia_Substation</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d05644c8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e4acd8-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d0564b76-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e4b458-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_201313630_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -225,24 +225,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d0564720-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e4af6c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d0564e64-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e4b796-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_201313630_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d056518e-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e4bb2e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0564b76-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0564e64-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e4b458-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e4b796-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0568f6e-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e5044e-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.2888818345</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0942926399</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05692fc-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e50840-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05692fc-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d056a436-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e50840-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e50d7c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211761952_132000_CN_201313630_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>20462.3633656</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -250,35 +250,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05692fc-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e50840-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d056a7ce-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e5110a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d056a436-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055cae8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e50d7c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e41e26-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d056ab0c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e51470-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d056a436-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0564e64-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e50d7c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e4b796-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d056b3a4-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e51f74-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.4115051037</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.1246060372</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d056b700-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e52320-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d056b700-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d056bfb6-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e52320-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e52df2-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_211761954</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d056b700-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e52320-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d056c1fa-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e5305e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_211761954_132000_Athalassa_Substation</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d056bfb6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e52df2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d056c664-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e53518-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211761954_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -286,24 +286,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d056c1fa-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e5305e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d056c952-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e53824-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211761954_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d056cc72-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e53b80-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d056c664-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d056c952-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e53518-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e53824-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0570cfa-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e57b9a-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.3063461059</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0971179138</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05710b0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e57f96-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05710b0-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d0571574-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e57f96-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e584be-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211761952_132000_CN_211761954_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>24143.6122327</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -311,35 +311,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05710b0-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e57f96-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d05718da-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e58860-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0571574-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055cae8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e584be-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e41e26-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d0571c18-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e58bda-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0571574-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d056c952-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e584be-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e53824-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0572488-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e5967a-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.0900475098</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.1260520388</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05727e4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e59a30-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05727e4-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d0572f96-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e59a30-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e5a35e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_180732429</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d05727e4-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e59a30-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d05731da-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e5b704-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_180732429__</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d0572f96-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e5a35e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d0573734-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e5bc04-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_180732429_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -347,24 +347,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05731da-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e5b704-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d0573a22-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e5bf2e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_180732429_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d0573d4c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e5c28a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0573734-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0573a22-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e5bc04-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e5bf2e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0576682-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e5f462-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.1708833626</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.1091789603</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05769fc-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e5f840-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05769fc-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d0576ea2-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e5f840-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e5fd7c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211761952_132000_CN_180732429_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>16551.8244762</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -372,35 +372,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05769fc-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e5f840-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d0577212-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e6011e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0576ea2-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d055cae8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e5fd7c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e41e26-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d057753c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e6048e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0576ea2-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0573a22-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e5fd7c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e5bf2e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0577da2-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e60dbc-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.4108232355</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.9852805369</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05780fe-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e61168-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05780fe-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d05789b4-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e61168-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e61bae-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_83067192</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d05780fe-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e61168-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d0578bee-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e61e1a-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_83067192_132000_Alampra_Substation</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d05789b4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e61bae-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d0579044-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e622ca-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_83067192_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -408,24 +408,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d0578bee-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e61e1a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d0579314-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e625e0-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_83067192_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d0579634-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e6293c-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0579044-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0579314-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e622ca-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e625e0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d057d658-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e670b8-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.4063617975</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0550444119</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d057da04-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e674b4-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d057da04-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d057df22-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e674b4-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e67a36-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211761954_132000_CN_83067192_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>16238.6093021</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -433,26 +433,26 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d057da04-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e674b4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d057e27e-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e67de2-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d057df22-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d056c952-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e67a36-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e53824-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d057e59e-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e68148-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d057df22-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0579314-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e67a36-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e625e0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d058408e-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e6e7f0-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.5322040001</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0139926466</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d058443a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e6ebc4-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d058443a-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d0584912-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e6ebc4-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e6f0ba-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211761954_132000_CN_82814444_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>50235.7733013</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -460,35 +460,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d058443a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e6ebc4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d0584c78-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e6f42a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0584912-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d056c952-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e6f0ba-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e53824-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d0584fac-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e6f77c-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0584912-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0557110-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e6f0ba-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e3b508-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05854d4-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e6fccc-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.2904529757</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.7325273298</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0585826-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e7003c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0585826-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d058606e-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e7003c-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e7099c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_83357924</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d0585826-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e7003c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d05862a8-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e70be0-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_83357924_132000_</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d058606e-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e7099c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d0586708-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e71072-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_83357924_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -496,57 +496,57 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05862a8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e70be0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05869ec-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e71360-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_83357924_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d0586e1a-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e7169e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0586708-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05869ec-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e71072-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e71360-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05874a0-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e71bd0-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.2914058557</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.7284308356</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0587810-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e71f2c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0587810-4c55-11e7-9128-02ba7def0216"/>
-	<cim:GeneratingUnit rdf:ID="d0587f36-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e71f2c-51d9-11e7-a900-02ba7def0216"/>
+	<cim:GeneratingUnit rdf:ID="04e726ca-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>G_27618715</cim:IdentifiedObject.name>
 		<cim:GeneratingUnit.maxOperatingP>None</cim:GeneratingUnit.maxOperatingP>
 		<cim:GeneratingUnit.nominalP/>
 		<cim:GeneratingUnit.genControlMode rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#GeneratorControlMode.setpoint"/>
 		<cim:GeneratingUnit.genOperatingMode rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#GeneratorOperatingMode.fixed"/>
 		<cim:GeneratingUnit.genControlSource rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#GeneratorControlSource.unavailable"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d0587810-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e71f2c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:GeneratingUnit>
-	<cim:SynchronousMachine rdf:ID="d0588170-4c55-11e7-9128-02ba7def0216">
+	<cim:SynchronousMachine rdf:ID="04e72918-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>G_27618715_Vassilikos_Power_Station</cim:IdentifiedObject.name>
 		<cim:SynchronousMachine.r>0.01</cim:SynchronousMachine.r>
 		<cim:SynchronousMachine.x>0.01</cim:SynchronousMachine.x>
 		<cim:SynchronousMachine.ratedS/>
 		<cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SynchronousMachineOperatingMode.generator"/>
 		<cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SynchronousMachineType.generator"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:SynchronousMachine.GeneratingUnit rdf:resource="#d0587f36-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:SynchronousMachine.GeneratingUnit rdf:resource="#04e726ca-51d9-11e7-a900-02ba7def0216"/>
 	</cim:SynchronousMachine>
-	<cim:ConnectivityNode rdf:ID="d0588468-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e72c24-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_27618715_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d0588792-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e72f4e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0588170-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0588468-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e72918-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e72c24-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d058ad62-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e755fa-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.2908318983</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.7329499547</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d058b0dc-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e7599c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d058b0dc-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d058b5a0-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e7599c-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e75e74-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_83357924_132000_CN_27618715_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>78.8559229774</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -554,35 +554,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d058b0dc-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e7599c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d058b8e8-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e761e4-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d058b5a0-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05869ec-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e75e74-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e71360-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d058bc08-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e76518-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d058b5a0-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0588468-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e75e74-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e72c24-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d058c13a-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e76b30-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.6074951872</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.9275889144</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d058c482-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e76ea0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d058c482-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d058cc20-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e76ea0-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e7777e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_211792135</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d058c482-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e76ea0-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d058ce5a-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e779c2-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_211792135__</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d058cc20-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e7777e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d058d2ba-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e77e36-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211792135_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -590,33 +590,33 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d058ce5a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e779c2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d058d594-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e7811a-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211792135_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d058d8be-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e7844e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d058d2ba-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d058d594-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e77e36-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e7811a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d058ddc8-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e78962-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.5605921186</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.9058250043</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d058e106-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e78cb4-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d058e106-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d058e98a-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e78cb4-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e79632-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_83067198</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d058e106-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e78cb4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d058ebc4-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e79876-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_83067198_132000;medium_</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d058e98a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e79632-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d058f024-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e79cea-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_83067198_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -624,24 +624,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d058ebc4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e79876-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d058f2f4-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e79fce-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_83067198_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d058f60a-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e7a2f8-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d058f024-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d058f2f4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e79cea-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e79fce-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05928fa-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e7d6ce-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.577186392</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.9549233453</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0592cce-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e7dbce-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0592cce-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d0593188-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e7dbce-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e7e0c4-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211792135_132000_CN_83067198_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>20049.9034381</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -649,26 +649,26 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d0592cce-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e7dbce-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d05934da-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e7e42a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0593188-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d058d594-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e7e0c4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e7811a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d05937fa-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e7e74a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0593188-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d058f2f4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e7e0c4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e79fce-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d0598296-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e82700-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.6663123366</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.977040802</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0598642-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e82aca-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0598642-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d0598b24-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e82aca-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e82fb6-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211792135_132000_CN_82814444_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>18408.7002396</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -676,35 +676,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d0598642-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e82aca-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d0598e8a-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e83326-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0598b24-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d058d594-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e82fb6-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e7811a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d05991c8-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e8365a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d0598b24-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0557110-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e82fb6-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e3b508-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05996f0-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e83b82-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.7356290789</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.2531115996</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d0599a56-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e83efc-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d0599a56-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d059a1fe-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e83efc-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e847bc-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_171782702</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d0599a56-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e83efc-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d059a4ec-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e84a00-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_171782702__</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d059a1fe-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e847bc-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d059a9a6-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e84e74-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_171782702_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -712,33 +712,33 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d059a4ec-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e84a00-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d059adac-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e8516c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_171782702_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d059b0f4-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e854aa-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d059a9a6-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d059adac-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e84e74-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e8516c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d059b612-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e859c8-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.3400971167</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.2213763423</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d059b964-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e85d2e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d059b964-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d059c102-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e85d2e-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e865d0-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_205752717</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d059b964-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e85d2e-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d059c33c-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e8680a-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_205752717__</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d059c102-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e865d0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d059c788-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e874ee-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_205752717_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -746,24 +746,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d059c33c-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e8680a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d059ca62-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e877fa-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_205752717_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d059cd82-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e87b2e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d059c788-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d059ca62-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e874ee-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e877fa-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d059f348-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e8a4aa-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.5331657124</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.213792056</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d059f6c2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e8a824-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d059f6c2-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d059fb7c-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e8a824-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e8acca-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_171782702_132000_CN_205752717_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>40616.9214316</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -771,35 +771,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d059f6c2-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e8a824-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d059feb0-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e8aff4-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d059fb7c-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d059adac-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e8acca-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e8516c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d05a01d0-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e8b2ec-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d059fb7c-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d059ca62-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e8acca-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e877fa-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05a06e4-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e8b7ec-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>34.0316500116</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0137458013</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05a0a22-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e8bb20-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05a0a22-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d05a126a-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e8bb20-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e8c412-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_200000150</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d05a0a22-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e8bb20-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d05a14a4-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e8c638-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_200000150_132000_</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d05a126a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e8c412-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d05a1918-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e8ca8e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_200000150_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -807,24 +807,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05a14a4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e8c638-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05a1bf2-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e8cd68-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_200000150_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05a1f08-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e8d06a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05a1918-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05a1bf2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e8ca8e-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e8cd68-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05a4d66-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e8fd06-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.8838537232</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>35.0004607576</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05a513a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e90080-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05a513a-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d05a5626-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e90080-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e90530-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_200000150_132000_CN_82814444_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>27870.5147699</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -832,26 +832,26 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05a513a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e90080-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d05a5978-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e90864-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05a5626-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05a1bf2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e90530-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e8cd68-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d05a5cac-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e90b70-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05a5626-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0557110-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e90530-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e3b508-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05a86dc-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e9350a-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.4878237423</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.9472819621</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05a8a9c-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e9385c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05a8a9c-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d05a8f60-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e9385c-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e93dd4-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_83067192_132000_CN_83067198_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>16934.8400116</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -859,26 +859,26 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05a8a9c-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e9385c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d05a92a8-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e94126-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05a8f60-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0579314-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e93dd4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e625e0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d05a95c8-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e94428-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05a8f60-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d058f2f4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e93dd4-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e79fce-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05ac642-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e973b2-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.369202019</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.8482124871</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05ac9c6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e97722-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05ac9c6-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d05ace8a-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e97722-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e97bc8-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_83067192_132000_CN_27618715_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>32960.5777953</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -886,35 +886,35 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05ac9c6-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e97722-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d05ad1d2-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e97f06-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05ace8a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0579314-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e97bc8-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e625e0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d05ad4fc-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e981fe-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05ace8a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0588468-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e97bc8-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e72c24-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05ada10-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e986ea-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.314785632</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.7274511762</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05adf4c-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e98a1e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05adf4c-4c55-11e7-9128-02ba7def0216"/>
-	<cim:Substation rdf:ID="d05ae7b2-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e98a1e-51d9-11e7-a900-02ba7def0216"/>
+	<cim:Substation rdf:ID="04e99310-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>SS_211779197</cim:IdentifiedObject.name>
-		<cim:PowerSystemResource.Location rdf:resource="#d05adf4c-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Substation.Region rdf:resource="#d05519e0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e98a1e-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Substation.Region rdf:resource="#04e3511c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Substation>
-	<cim:PowerTransformer rdf:ID="d05ae9f6-4c55-11e7-9128-02ba7def0216">
+	<cim:PowerTransformer rdf:ID="04e99536-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>T_211779197_132000_</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#d05ae7b2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#04e99310-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PowerTransformer>
-	<cim:TransformerWinding rdf:ID="d05aee6a-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e9998c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211779197_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -922,24 +922,24 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.primary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05ae9f6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e99536-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05af144-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e99c52-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211779197_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05af45a-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e99f68-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05aee6a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05af144-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e9998c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e99c52-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:PositionPoint rdf:ID="d05b1994-4c55-11e7-9128-02ba7def0216">
+	<cim:PositionPoint rdf:ID="04e9c40c-51d9-11e7-a900-02ba7def0216">
 		<cim:PositionPoint.xPosition>33.303691219</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>34.7331733715</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#d05b1d54-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PositionPoint.Location rdf:resource="#04e9c7ae-51d9-11e7-a900-02ba7def0216"/>
 	</cim:PositionPoint>
-	<cim:Location rdf:ID="d05b1d54-4c55-11e7-9128-02ba7def0216"/>
-	<cim:ACLineSegment rdf:ID="d05b2218-4c55-11e7-9128-02ba7def0216">
+	<cim:Location rdf:ID="04e9c7ae-51d9-11e7-a900-02ba7def0216"/>
+	<cim:ACLineSegment rdf:ID="04e9cc68-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>_CN_211779197_132000_CN_27618715_132000</cim:IdentifiedObject.name>
 		<cim:Conductor.length>2547.41363369</cim:Conductor.length>
 		<cim:ACLineSegment.r>0.3257</cim:ACLineSegment.r>
@@ -947,20 +947,20 @@
 		<cim:ACLineSegment.x>0.3153</cim:ACLineSegment.x>
 		<cim:ACLineSegment.r0>0.5336</cim:ACLineSegment.r0>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:PowerSystemResource.Location rdf:resource="#d05b1d54-4c55-11e7-9128-02ba7def0216"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:PowerSystemResource.Location rdf:resource="#04e9c7ae-51d9-11e7-a900-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
 	</cim:ACLineSegment>
-	<cim:Terminal rdf:ID="d05b2560-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e9cf92-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b2218-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05af144-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e9cc68-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e99c52-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="d05b2880-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e9d2a8-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>2</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b2218-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d0588468-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e9cc68-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e72c24-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05b3172-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e9dc44-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211687616_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -968,32 +968,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d0554834-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e386b4-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05b3456-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e9df28-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211687616_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05b3776-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e9e22a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b3172-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b3456-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e9dc44-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e9df28-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05b3ad2-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04e9e572-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05b405e-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04e9eaea-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_211687616</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05b3ad2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04e9e572-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05b43b0-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e9ee1e-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b405e-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b3456-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e9eaea-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e9df28-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05b4892-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04e9f2e2-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211761952_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1001,32 +1001,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d055c3b8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e415de-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05b4b76-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04e9f5b2-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211761952_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05b4e96-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04e9f8b4-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b4892-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b4b76-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e9f2e2-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e9f5b2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05b5166-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04e9fb7a-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05b55e4-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04e9ffda-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_211761952</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05b5166-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04e9fb7a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05b592c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea0318-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b55e4-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b4b76-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04e9ffda-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04e9f5b2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05b5daa-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea0782-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211840907_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1034,32 +1034,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d055e0b4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e4380c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05b607a-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04ea0a3e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211840907_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05b639a-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea0d40-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b5daa-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b607a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea0782-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea0a3e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05b6660-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ea0fe8-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05b6ab6-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ea1420-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_211840907</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05b6660-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ea0fe8-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05b6df4-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea174a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b6ab6-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b607a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea1420-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea0a3e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05b72a4-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea1bc8-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_201313630_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1067,32 +1067,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d0564720-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e4af6c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05b757e-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04ea1e8e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_201313630_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05b79b6-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea2186-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b72a4-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b757e-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea1bc8-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea1e8e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05b7cf4-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ea242e-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05b8a96-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ea2884-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_201313630</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05b7cf4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ea242e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05b8e24-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea2bb8-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b8a96-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b757e-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea2884-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea1e8e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05b92e8-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea3040-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211761954_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1100,32 +1100,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d056c1fa-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e5305e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05b95c2-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04ea32fc-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211761954_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05b98d8-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea35f4-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05b92e8-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b95c2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea3040-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea32fc-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05b9bb2-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ea38a6-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05ba030-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ea3cfc-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_211761954</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05b9bb2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ea38a6-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05ba378-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea4026-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05ba030-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05b95c2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea3cfc-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea32fc-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05ba800-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea4486-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_180732429_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1133,32 +1133,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05731da-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e5b704-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05baad0-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04ea4742-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_180732429_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05badd2-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea4a30-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05ba800-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05baad0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea4486-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea4742-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05bb0b6-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ea4d00-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05bb52a-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ea5138-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_180732429</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05bb0b6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ea4d00-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05bb868-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea5458-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05bb52a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05baad0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea5138-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea4742-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05bbd0e-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea58cc-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_83067192_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1166,32 +1166,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d0578bee-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e61e1a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05bbfd4-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04ea5b92-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_83067192_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05bc2e0-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea5e94-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05bbd0e-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05bbfd4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea58cc-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea5b92-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05bc5a6-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ea6146-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05bca1a-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ea6cb8-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_83067192</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05bc5a6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ea6146-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05bcd58-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea700a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05bca1a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05bbfd4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea6cb8-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea5b92-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05bd1fe-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea75aa-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_83357924_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1199,32 +1199,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05862a8-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e70be0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05bd4ce-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04ea788e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_83357924_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05bd7e4-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea7b90-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05bd1fe-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05bd4ce-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea75aa-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea788e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05bdaa0-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ea7e42-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05bdf1e-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ea82c0-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_83357924</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05bdaa0-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ea7e42-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05be25c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea863a-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05bdf1e-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05bd4ce-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea82c0-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea788e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05be6e4-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea8acc-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211792135_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1232,32 +1232,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d058ce5a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e779c2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05be9aa-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04ea8d92-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211792135_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05becac-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea9094-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05be6e4-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05be9aa-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea8acc-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea8d92-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05bef72-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ea9346-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05bf3be-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ea9792-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_211792135</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05bef72-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ea9346-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05bf6fc-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ea9ab2-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05bf3be-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05be9aa-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea9792-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04ea8d92-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05bfb70-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04ea9f12-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_83067198_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1265,32 +1265,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d058ebc4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e79876-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05bfe40-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04eaa1e2-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_83067198_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05c014c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eaa4ee-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05bfb70-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05bfe40-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ea9f12-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eaa1e2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05c0412-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04eaa78c-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05c0886-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04eaabe2-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_83067198</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05c0412-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04eaa78c-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05c0bba-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eaaf0c-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c0886-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05bfe40-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eaabe2-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eaa1e2-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05c104c-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04eab38a-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_171782702_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1298,32 +1298,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d059a4ec-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e84a00-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05c1312-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04eab650-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_171782702_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05c16dc-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eab948-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c104c-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c1312-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eab38a-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eab650-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05c19ca-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04eabbf0-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05c1e34-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04eac032-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_171782702</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05c19ca-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04eabbf0-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05c2172-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eac352-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c1e34-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c1312-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eac032-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eab650-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05c25d2-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04eac79e-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_205752717_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1331,32 +1331,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d059c33c-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e8680a-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05c28a2-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04eacaaa-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_205752717_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05c2bae-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eacdac-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c25d2-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c28a2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eac79e-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eacaaa-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05c2e6a-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04ead05e-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05c32d4-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04ead4a0-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_205752717</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05c2e6a-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04ead05e-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05c361c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04ead7c0-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c32d4-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c28a2-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04ead4a0-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eacaaa-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05c3ab8-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04eadc2a-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_200000150_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1364,32 +1364,32 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05a14a4-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e8c638-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05c3d92-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04eadee6-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_200000150_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05c409e-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eae1de-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c3ab8-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c3d92-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eadc2a-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eadee6-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05c4364-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04eae490-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05c47ce-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04eae8e6-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_200000150</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05c4364-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04eae490-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05c4b0c-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eaec10-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c47ce-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c3d92-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eae8e6-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eadee6-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:TransformerWinding rdf:ID="d05c4fc6-4c55-11e7-9128-02ba7def0216">
+	<cim:TransformerWinding rdf:ID="04eaf0a2-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>TW_211779197_132000</cim:IdentifiedObject.name>
 		<cim:TransformerWinding.x>1.0</cim:TransformerWinding.x>
 		<cim:TransformerWinding.ratedS>5000000</cim:TransformerWinding.ratedS>
@@ -1397,29 +1397,29 @@
 		<cim:TransformerWinding.ratedU>132000</cim:TransformerWinding.ratedU>
 		<cim:TransformerWinding.connectionType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection.Yn"/>
 		<cim:TransformerWinding.windingType rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType.secondary"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:TransformerWinding.PowerTransformer rdf:resource="#d05ae9f6-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:TransformerWinding.PowerTransformer rdf:resource="#04e99536-51d9-11e7-a900-02ba7def0216"/>
 	</cim:TransformerWinding>
-	<cim:ConnectivityNode rdf:ID="d05c5296-4c55-11e7-9128-02ba7def0216">
+	<cim:ConnectivityNode rdf:ID="04eaf368-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>CN_211779197_132000</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
-	<cim:Terminal rdf:ID="d05c55a2-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eaf660-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c4fc6-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c5296-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eaf0a2-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eaf368-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
-	<cim:LoadResponseCharacteristic rdf:ID="d05c585e-4c55-11e7-9128-02ba7def0216">
+	<cim:LoadResponseCharacteristic rdf:ID="04eaf912-51d9-11e7-a900-02ba7def0216">
 		<cim:LoadResponseCharacteristic.pConstantPower>100000</cim:LoadResponseCharacteristic.pConstantPower>
 	</cim:LoadResponseCharacteristic>
-	<cim:EnergyConsumer rdf:ID="d05c5cdc-4c55-11e7-9128-02ba7def0216">
+	<cim:EnergyConsumer rdf:ID="04eafd7c-51d9-11e7-a900-02ba7def0216">
 		<cim:IdentifiedObject.name>L_211779197</cim:IdentifiedObject.name>
 		<cim:ConductingEquipment.phases rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode.A"/>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#d0554c3a-4c55-11e7-9128-02ba7def0216"/>
-		<cim:EnergyConsumer.LoadResponse rdf:resource="#d05c585e-4c55-11e7-9128-02ba7def0216"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#04e38b46-51d9-11e7-a900-02ba7def0216"/>
+		<cim:EnergyConsumer.LoadResponse rdf:resource="#04eaf912-51d9-11e7-a900-02ba7def0216"/>
 	</cim:EnergyConsumer>
-	<cim:Terminal rdf:ID="d05c602e-4c55-11e7-9128-02ba7def0216">
+	<cim:Terminal rdf:ID="04eb00a6-51d9-11e7-a900-02ba7def0216">
 		<cim:Terminal.sequenceNumber>1</cim:Terminal.sequenceNumber>
-		<cim:Terminal.ConductingEquipment rdf:resource="#d05c5cdc-4c55-11e7-9128-02ba7def0216"/>
-		<cim:Terminal.ConnectivityNode rdf:resource="#d05c5296-4c55-11e7-9128-02ba7def0216"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#04eafd7c-51d9-11e7-a900-02ba7def0216"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#04eaf368-51d9-11e7-a900-02ba7def0216"/>
 	</cim:Terminal>
 </rdf:RDF>
