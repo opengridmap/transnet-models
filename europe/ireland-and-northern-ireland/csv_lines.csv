@@ -22,15 +22,15 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 21,144584625,147525695,220000,6,line,50,,EirGrid,21998.0,0.08,0.32,11.5,1.3,Yes
 22,207339053,212731351,110000,3,line,50,Moneypoint - Ennis 110kV,EirGrid,25629.0,,,,,
 23,207339053,218901878,110000,3,line,50,Moneypoint - Ennis 110kV,EirGrid,9702.0,,,,,
-24,183549487,66493784,110000,3,line,50,,EirGrid,8384.0,,,,,
+24,183549487,66493784,110000,3,line,50,Drumkeen - Letterkenny 110kV,EirGrid,8384.0,,,,,
 25,183549487,183084855,110000,6,line,50,,EirGrid,29200.0,,,,,Yes
-26,183549487,183549490,110000,3,line,50,,EirGrid,4535.0,,,,,
+26,183549487,183549490,110000,3,line,50,Drumkeen - Meentycat 110kV,EirGrid,4535.0,,,,,
 27,124120112,194575030,110000,6,line,50,-Freshford - Sligo 110kV,EirGrid,50576.0,,,,,Yes
 28,124120112,179714187,110000,3,line,50,Sligo-Cunghill 110 kV,EirGrid,21171.0,,,,,
 29,183080497,42998577,110000,3,line,50,Cashla - Somerset - Shannonbridge 110kV,EirGrid,45455.0,,,,,
 30,264852019,266249997,110000,6,line,50,,EirGrid,26484.0,,,,,Yes
 31,264852019,265890258,110000,3,line,50,,EirGrid,6341.0,,,,,
-32,264852019,235562808,110000,3,line,50,,EirGrid,19858.0,,,,,
+32,264852019,235562808,110000,3,line,50,Gorman - Platin 110kV,EirGrid,19858.0,,,,,
 33,439775806,166764822,110000,6,line,50,Carrickfergus - Kilroot,NIE Networks,1653.0,,,,,
 34,147525695,384987120,110000,3,line,50,,EirGrid,2253.0,,,,,
 35,150124101,235590778,110000,3,line,50,EirGrid Butlerstown-Cullenagh,EirGrid,12229.0,,,,,Yes
@@ -59,7 +59,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 58,151556697,342820729,110000,3,line,50,,EirGrid,14799.0,,,,,
 59,374863965,150518003,110000,6,line,50,,NIE Networks,46464.0,,,,,Yes
 60,374863965,374848631,110000,6,line,50,,NIE Networks,64027.0,,,,,Yes
-61,374690911,27144164,110000,,line,50,,EirGrid,5217.0,,,,,
+61,374690911,27144164,110000,,line,50,Finglas - Cabra 110kV,EirGrid,5217.0,,,,,
 62,219010656,194575030,110000,3,line,50,Flagford - Tonroe 110kV,EirGrid,32459.0,,,,,
 63,266999191,342820729,110000,3,line,50,Lanesborough - Mullingar 110kV,EirGrid,46018.0,,,,,
 64,152447080,264275258,110000,3,line,50,Louth - Greaghnacross 110kV,EirGrid,38756.0,,,,,
@@ -70,7 +70,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 69,374590823,374590824,110000,3,line,50,,EirGrid,15865.0,,,,,
 70,374590823,236651495,110000,3,line,50,,EirGrid,44359.0,,,,,
 71,374590823,104388595,110000,3,line,50,,EirGrid,63188.0,,,,,
-72,366946550,444668570,110000,3,line,50,Ballymena - Ballyclare,NIE Networks,24157.0,,,,,
+72,366946550,444668570,110000,3,line,50,Ballymena - Ballyclare 110kV-Ballymena - Ballyclare,NIE Networks,24157.0,,,,,
 73,231161975,227767019,110000,6,line,50,,NIE Networks,12954.0,,,,,Yes
 74,235602041,186889669,110000,3,line,50,Clashavoon - Macroom 110kV,EirGrid,5831.0,,,,,
 75,235602041,235929741,110000,3,line,50,Dunmanway - Macroom,EirGrid,26311.0,,,,,
@@ -127,66 +127,66 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 126,266244304,264275258,110000,3,line,50,Louth - Dundalk - Mullagharlin 110kV-Louth - Dundalk - Mullagharlin,EirGrid,10860.0,,,,,
 127,266244304,265773388,110000,6,line,50,Louth - Dundalk - Mullagharlin 110kV--Louth - Dundalk - Mullagharlin,EirGrid,7190.0,,,,,Yes
 128,444664904,186166560,110000,3,line,50,,EirGrid,27440.0,,,,,
-129,374348922,208125589,110000,3,line,50,Tarbert - Trien 110kV-Tarbert - Aughinish OR Limerick 110kV,EirGrid,121.0,,,,,
-130,374348922,211196263,110000,6,line,50,Tarbert - Trien 110kV-Tarbert - Aughinish OR Limerick 110kV-Tarbert - Aughinish 110kV,EirGrid,33802.0,,,,,Yes
-131,374348922,235924790,110000,6,line,50,Tarbert - Trien 110kV-Tarbert - Aughinish OR Limerick 110kV-Tarbet - Trien,EirGrid,20451.0,,,,,Yes
-132,374873312,150518003,110000,6,line,50,Coolkeeragh - Lisaghmore 110kV,NIE Networks,8916.0,,,,,
-133,374873312,453425562,110000,6,line,50,Lisaghmore - Fountain 110kV,NIE Networks,1835.0,,,,,
-134,374617269,191715059,110000,3,line,50,,EirGrid,2324.0,,,,,
-135,227767019,259105170,110000,3,line,50,Tandragee - Portadown 110kV,NIE Networks,4106.0,,,,,
-136,227767019,335771580,110000,6,line,50,,NIE Networks,18420.0,,,,,Yes
-137,227767019,166809454,110000,6,line,50,,NIE Networks,30972.0,,,,,Yes
-138,185902319,183986064,110000,3,line,50,,EirGrid,49806.0,,,,,
-139,185902319,189376942,110000,3,line,50,,EirGrid,12812.0,,,,,
-140,191715059,374906132,110000,3,line,50,,EirGrid,17722.0,,,,,
-141,191715059,79803767,110000,3,line,50,,EirGrid,6880.0,,,,,
-142,191715059,154686756,110000,3,line,50,,EirGrid,17145.0,,,,,Yes
-143,210599157,235924790,110000,3,line,50,Tarbert - Tralee- Number 2,EirGrid,10452.0,,,,,
-144,265388725,264972202,110000,3,line,50,Newbridge - Portlaoise 110kV,EirGrid,43169.0,,,,,
-145,266052564,183749097,110000,3,line,50,,EirGrid,16272.0,,,,,
-146,179305213,200167853,110000,3,line,50,Castlebar - Westport 110kV,EirGrid,24285.0,,,,,Yes
-147,208124159,208125589,110000,3,line,50,Tarbert - Tralee 110kV Number 1,EirGrid,48.0,,,,,
-148,166764805,166809471,110000,6,line,50,Carnmoney - Finaghy 110kV,NIE Networks,14423.0,,,,,
-149,87982346,257893804,110000,3,line,50,Monread - Kilteel 110kV,EirGrid,8876.0,,,,,
-150,87982346,264972202,110000,3,line,50,Monread - Newbridge,EirGrid,14180.0,,,,,
-151,207628559,52291514,110000,5,line,50,Drumline - Ennis,EirGrid,17378.0,,,,,
-152,374906132,71762783,110000,3,line,50,Whitegate - Aghada,EirGrid,3333.0,,,,,
-153,166764822,166809471,110000,6,line,50,Carrickfergus - Carnmoney,NIE Networks,12481.0,,,,,
-154,166764822,375457082,110000,6,line,50,Ballylumford - Carrickfergus,NIE Networks,15040.0,,,,,
-155,213508375,236517264,110000,3,line,50,,EirGrid,33607.0,,,,,
-156,374587161,237476600,110000,3,line,50,,EirGrid,28164.0,,,,,
-157,339515165,79803764,110000,3,line,50,,EirGrid,152.0,,,,,
-158,377711903,194825184,110000,3,line,50,Dungannon - Omagh  110kV-Dungannon - Omagh,NIE Networks,39379.0,,,,,
-159,186166560,235933652,110000,3,line,50,,EirGrid,2654.0,,,,,
-160,104879394,437400792,110000,3,line,50,,EirGrid,103.0,,,,,
-161,172572963,374590824,110000,3,line,50,Clonmel - Ballydine 110kV,EirGrid,11302.0,,,,,
-162,154686756,104388595,110000,3,line,50,,EirGrid,7600.0,,,,,
-163,179214119,179214131,110000,3,line,50,Clonkeen - Coomagearlahy,EirGrid,6077.0,,,,,
-164,373209904,373209905,110000,3,line,50,,EirGrid,2788.0,,,,,
-165,373209904,31330615,110000,3,line,50,,EirGrid,14413.0,,,,,
-166,42998577,161472995,110000,6,line,50,-Galway - Cashla - Dalton-110kV Galway - Dalton-and Cashla - Galway Number 1 Co Lo-Galway - Dalton 110kV,EirGrid,70551.0,,,,,Yes
-167,42998577,52291514,110000,3,line,50,Cashla - Ennis 110kV,EirGrid,53541.0,,,,,
-168,42998577,198780339,110000,3,line,50,Cashla - Cloon 110kV,EirGrid,22899.0,,,,,
-169,42998577,201208741,110000,3,line,50,Cashla - Galway No. 1 110kV-Galway - Cashla - Dalton-Galway - Dalton 110kV,EirGrid,67596.0,,,,,
-170,96765746,374583113,110000,3,cable,50,Ardnacrusha - Limerick 110kV,EirGrid,409.0,,,,,
-171,96765746,211049457,110000,6,line,50,,EirGrid,28212.0,,,,,Yes
-172,96765746,180637986,110000,6,line,50,,EirGrid,11419.0,,,,,Yes
-173,179214131,186889669,110000,3,line,50,Clashavoon - Clonkeen 110kV,EirGrid,29845.0,,,,,
-174,179214131,236517264,110000,3,line,50,Clonkeen - Knockearagh,EirGrid,19927.0,,,,,
-175,48915255,35150701,110000,6,line,50,,EirGrid,8022.0,,,,,Yes
-176,235562808,27045289,110000,3,line,50,Finglas - Platin 110kV-Finglas - Glasmore,EirGrid,37429.0,,,,,
-177,235562808,27144164,110000,6,line,50,Finglas - Platin 110kV--Finglas - Glasmore / Platin 110kV,EirGrid,32613.0,,,,,Yes
-178,374960995,183749097,110000,3,cable,50,,EirGrid,1580.0,,,,,
-179,203448289,342820729,110000,3,line,50,Athlone - Lanesborough 110kV,EirGrid,35867.0,,,,,
-180,31330615,437400792,110000,6,line,50,-Kilbarry - Marina 110kV,EirGrid,4151.0,,,,,Yes
-181,31330615,104388595,110000,6,line,50,,EirGrid,11899.0,,,,,Yes
-182,31330615,129111454,110000,6,line,50,,EirGrid,29087.0,,,,,Yes
-183,236522320,180637986,110000,3,line,50,,EirGrid,29341.0,,,,,
-184,170568529,170760036,110000,6,line,50,-Carlow - Stratford - Poulaphouca 110kV,EirGrid,25279.0,,,,,Yes
-185,170568529,266025857,110000,6,line,50,-Carlow - Stratford - Poulaphouca 110kV,EirGrid,40049.0,,,,,Yes
-186,243503443,104388595,110000,3,line,50,,EirGrid,50200.0,,,,,
-187,66493784,241672868,110000,3,line,50,,EirGrid,14730.0,,,,,
-188,66493784,374848631,110000,3,line,50,,NIE Networks-EirGrid,22477.0,,,,,
+129,241661149,66493784,110000,3,line,50,-Letterkenny - Cark - Culliagh 110kV,EirGrid,14776.0,,,,,
+130,374873312,150518003,110000,6,line,50,Coolkeeragh - Lisaghmore 110kV,NIE Networks,8916.0,,,,,
+131,374873312,453425562,110000,6,line,50,Lisaghmore - Fountain 110kV,NIE Networks,1835.0,,,,,
+132,374617269,191715059,110000,3,line,50,,EirGrid,2324.0,,,,,
+133,227767019,259105170,110000,3,line,50,Tandragee - Portadown 110kV,NIE Networks,4106.0,,,,,
+134,227767019,335771580,110000,6,line,50,,NIE Networks,18420.0,,,,,Yes
+135,227767019,166809454,110000,6,line,50,,NIE Networks,30972.0,,,,,Yes
+136,185902319,183986064,110000,3,line,50,,EirGrid,49806.0,,,,,
+137,185902319,189376942,110000,3,line,50,Corderry - Srananagh 110kV,EirGrid,12812.0,,,,,
+138,191715059,374906132,110000,3,line,50,,EirGrid,17722.0,,,,,
+139,191715059,79803767,110000,3,line,50,,EirGrid,6880.0,,,,,
+140,191715059,154686756,110000,3,line,50,,EirGrid,17145.0,,,,,Yes
+141,210599157,235924790,110000,3,line,50,Tarbert - Tralee- Number 2,EirGrid,10452.0,,,,,
+142,265388725,264972202,110000,3,line,50,Newbridge - Portlaoise 110kV,EirGrid,43169.0,,,,,
+143,266052564,183749097,110000,3,line,50,,EirGrid,16272.0,,,,,
+144,179305213,200167853,110000,3,line,50,Castlebar - Westport 110kV,EirGrid,24285.0,,,,,Yes
+145,208124159,208125589,110000,3,cable,50,Tarbert 220/110kV,EirGrid,155.0,,,,,
+146,166764805,166809471,110000,6,line,50,Carnmoney - Finaghy 110kV,NIE Networks,14423.0,,,,,
+147,87982346,257893804,110000,3,line,50,Monread - Kilteel 110kV,EirGrid,8876.0,,,,,
+148,87982346,264972202,110000,3,line,50,Monread - Newbridge,EirGrid,14180.0,,,,,
+149,207628559,52291514,110000,5,line,50,Drumline - Ennis,EirGrid,17378.0,,,,,
+150,374906132,71762783,110000,3,line,50,Whitegate - Aghada,EirGrid,3333.0,,,,,
+151,166764822,166809471,110000,6,line,50,Carrickfergus - Carnmoney,NIE Networks,12481.0,,,,,
+152,166764822,375457082,110000,6,line,50,Ballylumford - Carrickfergus,NIE Networks,15040.0,,,,,
+153,213508375,236517264,110000,3,line,50,,EirGrid,33607.0,,,,,
+154,374587161,237476600,110000,3,line,50,,EirGrid,28164.0,,,,,
+155,339515165,79803764,110000,3,line,50,,EirGrid,152.0,,,,,
+156,377711903,194825184,110000,3,line,50,Dungannon - Omagh  110kV-Dungannon - Omagh,NIE Networks,39379.0,,,,,
+157,186166560,235933652,110000,3,line,50,,EirGrid,2654.0,,,,,
+158,104879394,437400792,110000,3,line,50,,EirGrid,103.0,,,,,
+159,172572963,374590824,110000,3,line,50,Clonmel - Ballydine 110kV,EirGrid,11302.0,,,,,
+160,154686756,104388595,110000,3,line,50,,EirGrid,7600.0,,,,,
+161,179214119,179214131,110000,3,line,50,Clonkeen - Coomagearlahy,EirGrid,6077.0,,,,,
+162,373209904,373209905,110000,3,line,50,,EirGrid,2788.0,,,,,
+163,373209904,31330615,110000,3,line,50,,EirGrid,14413.0,,,,,
+164,42998577,161472995,110000,6,line,50,-Galway - Cashla - Dalton-110kV Galway - Dalton-and Cashla - Galway Number 1 Co Lo-Galway - Dalton 110kV,EirGrid,70551.0,,,,,Yes
+165,42998577,52291514,110000,3,line,50,Cashla - Ennis 110kV,EirGrid,53541.0,,,,,
+166,42998577,198780339,110000,3,line,50,Cashla - Cloon 110kV,EirGrid,22899.0,,,,,
+167,42998577,201208741,110000,3,line,50,Cashla - Galway No. 1 110kV-Galway - Cashla - Dalton-Galway - Dalton 110kV,EirGrid,67596.0,,,,,
+168,96765746,374583113,110000,3,cable,50,Ardnacrusha - Limerick 110kV,EirGrid,409.0,,,,,
+169,96765746,211049457,110000,6,line,50,,EirGrid,28212.0,,,,,Yes
+170,96765746,180637986,110000,6,line,50,,EirGrid,11419.0,,,,,Yes
+171,179214131,186889669,110000,3,line,50,Clashavoon - Clonkeen 110kV,EirGrid,29845.0,,,,,
+172,179214131,236517264,110000,3,line,50,Clonkeen - Knockearagh,EirGrid,19927.0,,,,,
+173,374348922,208125589,110000,3,line,50,Tarbert - Trien 110kV-Tarbert - Aughinish OR Limerick 110kV,EirGrid,121.0,,,,,
+174,374348922,211196263,110000,6,line,50,Tarbert - Trien 110kV-Tarbert - Aughinish OR Limerick 110kV-Tarbert - Aughinish 110kV,EirGrid,33802.0,,,,,Yes
+175,374348922,235924790,110000,6,line,50,Tarbert - Trien 110kV-Tarbert - Aughinish OR Limerick 110kV-Tarbet - Trien,EirGrid,20451.0,,,,,Yes
+176,48915255,35150701,110000,6,line,50,,EirGrid,8022.0,,,,,Yes
+177,235562808,27045289,110000,3,line,50,Finglas - Platin 110kV-Finglas - Glasmore,EirGrid,37429.0,,,,,
+178,235562808,27144164,110000,6,line,50,Finglas - Platin 110kV--Finglas - Glasmore / Platin 110kV,EirGrid,32613.0,,,,,Yes
+179,374960995,183749097,110000,3,cable,50,,EirGrid,1580.0,,,,,
+180,203448289,342820729,110000,3,line,50,Athlone - Lanesborough 110kV,EirGrid,35867.0,,,,,
+181,31330615,437400792,110000,6,line,50,-Kilbarry - Marina 110kV,EirGrid,4151.0,,,,,Yes
+182,31330615,104388595,110000,6,line,50,,EirGrid,11899.0,,,,,Yes
+183,31330615,129111454,110000,6,line,50,,EirGrid,29087.0,,,,,Yes
+184,236522320,180637986,110000,3,line,50,,EirGrid,29341.0,,,,,
+185,170568529,170760036,110000,6,line,50,-Carlow - Stratford - Poulaphouca 110kV,EirGrid,25279.0,,,,,Yes
+186,170568529,266025857,110000,6,line,50,-Carlow - Stratford - Poulaphouca 110kV,EirGrid,40049.0,,,,,Yes
+187,243503443,104388595,110000,3,line,50,,EirGrid,50200.0,,,,,
+188,66493784,374848631,110000,3,line,50,-Letterkenny - Ballymagorry 110kV,NIE Networks-EirGrid,22477.0,,,,,
 189,194791260,194793393,110000,3,cable,50,Enniskillen - Corraclassy 110kV,NIE Networks,752.0,,,,,
 190,374590824,235794888,110000,3,line,50,,EirGrid,1850.0,,,,,
 191,79803764,79803767,110000,3,line,50,,EirGrid,1767.0,,,,,
@@ -200,7 +200,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 199,42737549,334109747,110000,3,line,50,,EirGrid,12801.0,,,,,
 200,200362903,52291514,110000,3,line,50,Ennis - Agannygal 110kV,EirGrid,38182.0,,,,,
 201,200362903,201204151,110000,3,line,50,Shannonbridge - Agannybeg - Ennis 110kV,EirGrid,20898.0,,,,,
-202,129111454,237476600,110000,3,line,50,,EirGrid,22533.0,,,,,
+202,129111454,237476600,110000,3,line,50,,EirGrid,22534.0,,,,,
 203,201208741,200167853,110000,3,line,50,Dalton-Castlebar 110kV,EirGrid,27886.0,,,,,
 204,27045289,27144164,110000,3,line,50,Finglas - Glasmore 110kV,EirGrid,11405.0,,,,,
 205,257893804,98203610,110000,3,line,50,Kilteel - Citywest 110kV-Allenwood - Maynooth - Citywest 110kV,EirGrid,17354.0,,,,,
@@ -211,7 +211,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 210,186889661,186889669,110000,3,line,50,Clashavoon - Boggeragh 110kV,EirGrid,13341.0,,,,,Yes
 211,220264906,180637986,110000,3,line,50,Killonan - Singland 110kV,EirGrid,4531.0,,,,,
 212,180637986,237476600,110000,3,line,50,,EirGrid,37017.0,,,,,
-213,98203610,448710346,110000,,cable,50,Clondalkin - Fortunestown - Saggart 110kV,EirGrid,776.0,,,,,
+213,98203610,448710346,110000,,cable,50,Clondalkin - Fortunestown - Saggart 110kV,EirGrid,785.0,,,,,
 214,374848631,194825184,110000,3,line,50,Omagh - Ballymagorry 110kV-Omagh - Ballymagorry-Ballymagorry - ??? 110kV,NIE Networks,35448.0,,,,,
 215,201187920,439829351,110000,3,line,50,,EirGrid,17.0,,,,,
 216,402783212,150518003,110000,6,line,50,,NIE Networks,51.0,,,,,
@@ -225,10 +225,10 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 224,264852019,194575030,220000,3,line,50,Flagford - Arva - Louth 220kV-Gorman - Louth 220kV,EirGrid,82122.0,,,,,
 225,264852019,264275258,220000,6,line,50,-Gorman - Louth 220kV,EirGrid,32237.0,,,,,Yes
 226,264852019,88462768,220000,3,line,50,Maynooth - Gorman 220kV,EirGrid,42031.0,,,,,
-227,255668124,88144450,220000,6,line,50,,EirGrid,41155.0,,,,,Yes
-228,255668124,266025855,220000,3,line,50,,EirGrid,89574.0,,,,,
-229,255668124,88462768,220000,6,line,50,,EirGrid,39616.0,,,,,Yes
-230,255668124,35150701,220000,3,cable,50,,EirGrid,1191.0,,,,,
+227,255668124,88144450,220000,6,line,50,-Maynooth / Dunstown - Stepaside - Carrickmines 220kV,EirGrid,41155.0,,,,,Yes
+228,255668124,266025855,220000,3,line,50,-Maynooth / Dunstown - Stepaside - Carrickmines 220kV,EirGrid,89574.0,,,,,
+229,255668124,88462768,220000,6,line,50,-Maynooth / Dunstown - Stepaside - Carrickmines 220kV,EirGrid,39616.0,,,,,Yes
+230,255668124,35150701,220000,3,cable,50,Maynooth / Dunstown - Stepaside - Carrickmines 220kV,EirGrid,1191.0,,,,,
 231,186889669,104388595,220000,3,line,50,,EirGrid,43079.0,,,,,
 232,180637986,104388595,220000,3,line,50,Knockraha - Killonan 220kV,EirGrid,61254.0,,,,,
 233,180637986,208125589,220000,3,line,50,Tarbert - Killonan 220kV,EirGrid,70583.0,,,,,
@@ -277,5 +277,5 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 276,339008021,39951424,275000,3,line,50,,NIE Networks,91.0,,,,,
 277,179121616,254158424,400000,3,line,50,Moneypoint - Oldstreet - Woodland 400kV,EirGrid,126528.0,,,,,
 278,179121616,201581579,400000,3,line,50,Moneypoint - Oldstreet - Woodland 400kV,EirGrid,102875.0,,,,,
-279,254158424,260836695,400000,,cable,50,,EirGrid,453.0,,,,,
+279,254158424,260836695,400000,,cable,50,Woodland Conversion Station - Woodland 400kV,EirGrid,453.0,,,,,
 280,88144450,201581579,400000,6,line,50,-Moneypoint - Dunstown 400kV,EirGrid,65117.0,0.025,0.25,13.7,2.6,Yes
