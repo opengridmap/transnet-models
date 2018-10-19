@@ -60,8 +60,8 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 59,78450728,139277601,110000,6,line,,Landau - Ettling - Plattling-Landau - Grüblhof-Landau - Grüblhof-Höhenrain - Teisbach - Grüblhof,,27137.0,,,,,
 60,78450728,78441545,110000,6,line,,Landau - Ettling - Plattling-Höhenrain - Teisbach - Grüblhof-Landau - Ettling - Plattling-Landau - Grüblhof-Landau - Ettling - Plattling-Höhenrain - Plattling,,21243.0,,,,,
 61,78450728,60220222,110000,6,line,,Landau - Ettling - Plattling-Höhenrain - Teisbach - Grüblhof-Höhenrain - Plattling-Höhenrain - Teisbach - Grüblhof-Landau - Ettling - Plattling-Landau - Grüblhof,,23252.0,,,,,
-62,100397098,30580622,110000,6,line,,,E.ON Netz GmbH,28166.0,,,,,Yes
-63,100397098,133342285,110000,6,line,,,E.ON Netz GmbH,50603.0,,,,,Yes
+62,100397098,30580622,110000,6,line,,-Leitung J169,E.ON Netz GmbH,28166.0,,,,,Yes
+63,100397098,133342285,110000,6,line,,-Leitung J169,E.ON Netz GmbH,50603.0,,,,,Yes
 64,92692523,92701104,110000,6,line,,,E.ON Netz GmbH,11445.0,,,,,Yes
 65,92692523,75865676,110000,3,line,,-Marienberg - Feldkirchen,E.ON Netz GmbH,18484.0,,,,,
 66,95860781,31019937,110000,6,line,,,LEW,7156.0,,,,,
@@ -98,11 +98,11 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 97,27052080,29997651,110000,8,line,0,-Karlsfeld - München-Ost 2-Karlsfeld - Aufkirchen-Karlsfeld - München Ost-Karlsfeld - München Ost-München Ost - Aufkirchen,DB_Energie,25404.0,,,,,Yes
 98,27052080,35064358,110000,8,line,0,-Karlsfeld - München-Ost 2-Karlsfeld - Aufkirchen-Karlsfeld - München Ost-Karlsfeld - Aufkirchen-München Ost - Aufkirchen,DB_Energie,44350.0,,,,,Yes
 99,362090545,35773026,110000,4,line,0,-KW Pfrombach - UW Landshut,DB_Energie,15645.0,,,,,Yes
-100,362090545,48416828,110000,8,line,0,-Rosenheim - Landshut-Rosenheim - Traunstein-Rosenheim - Landshut-KW Pfrombach - UW Landshut,DB_Energie,33163.0,,,,,Yes
-101,362090545,146387694,110000,4,line,0,-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,DB_Energie,73879.0,,,,,Yes
-102,362090545,44158317,110000,8,line,0,-KW Reichenhall - Abzweig-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,Thüga_Freilassing-DB_Energie-Thüga_Freilassing-DB_Energie,116621.0,,,,,Yes
-103,362090545,92792348,110000,8,line,0,-KW Reichenhall - Abzweig-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,DB_Energie-Thüga_Freilassing-DB_Energie,121526.0,,,,,Yes
-104,362090545,33463751,110000,6,line,0,-KW Reichenhall - Abzweig-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,Thüga_Freilassing-DB_Energie,113251.0,,,,,Yes
+100,362090545,48416828,110000,8,line,0,-Rosenheim - Landshut-Rosenheim - Traunstein-Rosenheim - Landshut-KW Pfrombach - UW Landshut,DB_Energie,83266.0,,,,,Yes
+101,362090545,146387694,110000,4,line,0,-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,DB_Energie,123982.0,,,,,Yes
+102,362090545,44158317,110000,8,line,0,-KW Reichenhall - Abzweig-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,Thüga_Freilassing-DB_Energie-Thüga_Freilassing-DB_Energie,166725.0,,,,,Yes
+103,362090545,92792348,110000,8,line,0,-KW Reichenhall - Abzweig-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,DB_Energie-Thüga_Freilassing-DB_Energie,171630.0,,,,,Yes
+104,362090545,33463751,110000,6,line,0,-KW Reichenhall - Abzweig-Rosenheim - Landshut-Rosenheim - Traunstein-KW Pfrombach - UW Landshut,Thüga_Freilassing-DB_Energie,163354.0,,,,,Yes
 105,362090545,39131226,110000,,cable,0,KW Eitting - KW Pfrombach,DB_Energie,6.0,,,,,
 106,92782642,78441545,110000,6,line,,-Straubing - Sünching-Kagers - Straubing - Plattling-Kagers - Straubing - Plattling,E.ON Netz GmbH,26460.0,,,,,Yes
 107,92782642,60121619,110000,6,line,,-Straubing - Sünching-Kagers - Straubing - Plattling-Kagers - Straubing - Plattling,E.ON Netz GmbH,15899.0,,,,,Yes
@@ -270,7 +270,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 269,93360341,32666397,110000,6,line,50,Arzberg - Wölsau-Wölsau - Wunsiedel-Arzberg - Wölsau,E.ON Netz GmbH,12208.0,,,,,Yes
 270,56322273,56322275,110000,,cable,,LEI PER,Stadtwerke_München,988.0,,,,,
 271,56322275,23102373,110000,6,line,,LEI PER,Stadtwerke_München,31793.0,,,,,
-272,27197669,42298171,110000,4,line,0,Kochel - Pasing-Abzweig UW Geisenbrunn,DB_Energie,67529.0,,,,,
+272,27197669,42298171,110000,4,line,0,Kochel - Pasing-Abzweig UW Geisenbrunn,DB_Energie,7363.0,,,,,
 273,159713512,45038813,110000,,cable,,,E.ON Netz GmbH,4296.0,,,,,
 274,87400685,30613895,110000,6,line,,,Lechwerke,4241.0,,,,,Yes
 275,92899436,90683229,110000,6,line,,,EON_Netz-E.ON Netz GmbH,12421.0,,,,,Yes
@@ -588,7 +588,7 @@ l_id,n_id_start,n_id_end,voltage,cables,type,frequency,name,operator,length_m,r_
 587,55090561,33790771,110000,6,line,,,Stadtwerke_München,8047.0,,,,,
 588,112235917,24237879,110000,6,line,,-Hochstadt - Oberbrunn-Hochstadt - Gauting-Hochstadt - Oberbrunn,E.ON Netz GmbH,3059.0,,,,,Yes
 589,176912280,42298171,110000,4,line,0,,DB_Energie,25.0,,,,,
-590,35673517,93314574,110000,6,line,,,E.ON Netz GmbH,17275.0,,,,,Yes
+590,35673517,93314574,110000,6,line,,BRE-NHM,E.ON Netz GmbH,17275.0,,,,,Yes
 591,5404079,30215711,110000,,cable,,,Stadtwerke München,3361.0,,,,,
 592,98784695,31512238,110000,6,line,50,,,4248.0,,,,,Yes
 593,42336162,42336163,110000,6,line,,-Pleinting - Aicha vorm Wald - Tittling-Tittling - Perlesreuth-Pleinting - Aicha vorm Wald - Perlesreuth-Tittling - Perlesreuth,E.ON Netz GmbH,11458.0,,,,,Yes
