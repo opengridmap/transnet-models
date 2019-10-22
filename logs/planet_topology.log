@@ -1,674 +1,490 @@
 Running for ../results 
 Running for africa 
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for egypt
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for south-africa-and-lesotho
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for kenya
-Infer net for voltage level 132000V
-Found 77 lines
-Found 77 stations
-Found 0 generators
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for botswana
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for congo-democratic-republic
-Infer net for voltage level 120000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for ethiopia
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for nigeria
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for algeria
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Infer for ivory-coast
-Infer net for voltage level 225000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for tunisia
-Infer net for voltage level 150000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for libya
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for tanzania
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Infer for morocco
-Infer net for voltage level 225000V
-object of type 'NoneType' has no len()
-Infer for namibia
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for asia 
-Infer for pakistan
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for india
-Infer net for voltage level 100000V
-Found 41 lines
-Found 41 stations
-Found 0 generators
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for azerbaijan
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for uzbekistan
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for mongolia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for japan
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for taiwan
-Infer net for voltage level 161000V
-object of type 'NoneType' has no len()
-Infer for tajikistan
-Infer net for voltage level 110000V
-Found 37 lines
-Found 37 stations
-Found 0 generators
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Infer for north-korea
-Infer net for voltage level 110000V
-Found 201 lines
-Found 201 stations
-Found 0 generators
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for malaysia-singapore-brunei
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for bangladesh
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for nepal
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for cambodia
-Infer net for voltage level 230000V
-object of type 'NoneType' has no len()
-Infer for gcc-states
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for iran
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for south-korea
-Infer net for voltage level 154000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for china
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for thailand
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for iraq
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for kazakhstan
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for turkmenistan
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for kyrgyzstan
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for sri-lanka
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for philippines
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for indonesia
-Infer net for voltage level 150000V
-object of type 'NoneType' has no len()
-Infer for vietnam
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for jordan
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for syria
-Infer net for voltage level 230000V
-object of type 'NoneType' has no len()
-Infer for yemen
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for russia 
-Infer for crimean-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for north-caucasus-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for volga-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for ural-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for siberian-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for central-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for far-eastern-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for northwestern-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for south-fed-district
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for australiaoceania 
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for australia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for new-zealand
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for centralamerica 
-Infer for haiti-and-domrep
-Infer net for voltage level 138000V
-Found 100 lines
-Found 135 stations
-Found 9 generators
-Total length of all found lines is 1024042.12717 meters
-Remove duplicates from 27 circuits
-22 circuits remain
-Line length with duplicates is 554503.219377 meters
-Inference took 0:00:01.131090 millies
-CSV generation started ...
-CIM model generation started ...
-438 CIM objects serialised in 0.05s.
-438 CIM objects serialised in 0.04s.
-All lines length without duplicates 551
-All lines length with duplicates 554
-All Stations count 26
-All power Planets count 2
-Took 0:00:01.446628 in total
-Finding missing data
-Finding missing data
-Finding missing data
-Infer for nicaragua
-Infer net for voltage level 138000V
-Found 31 lines
-Found 44 stations
-Found 3 generators
-Infer net for voltage level 230000V
-Found 29 lines
-Found 79 stations
-Found 1 generators
-Total length of all found lines is 1101601.65465 meters
-Remove duplicates from 9 circuits
-7 circuits remain
-Line length with duplicates is 316947.14004 meters
-Inference took 0:00:00.376055 millies
-CSV generation started ...
-CIM model generation started ...
-163 CIM objects serialised in 0.02s.
-163 CIM objects serialised in 0.02s.
-All lines length without duplicates 811
-All lines length with duplicates 287
-All Stations count 36
-All power Planets count 3
-Took 0:00:00.524200 in total
-Finding missing data
-Infer for cuba
-Infer net for voltage level 110000V
-Found 219 lines
-Found 248 stations
-Found 4 generators
-Infer net for voltage level 220000V
-Found 86 lines
-Found 350 stations
-Found 2 generators
-Total length of all found lines is 3484818.58314 meters
-Remove duplicates from 43 circuits
-29 circuits remain
-Line length with duplicates is 1574283.44849 meters
-Inference took 0:00:01.954685 millies
-CSV generation started ...
-CIM model generation started ...
-572 CIM objects serialised in 0.07s.
-572 CIM objects serialised in 0.06s.
-All lines length without duplicates 1503
-All lines length with duplicates 1246
-All Stations count 69
-All power Planets count 4
-Took 0:00:02.472065 in total
-Finding missing data
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for southamerica 
-Infer for brazil
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for peru
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for chile
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for uruguay
-Infer net for voltage level 150000V
-object of type 'NoneType' has no len()
-Infer for colombia
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Infer for paraguay
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Infer for argentina
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for bolivia
-Infer net for voltage level 230000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for ecuador
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for europe 
-Infer for romania
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for albania
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for portugal
-Infer net for voltage level 150000V
-object of type 'NoneType' has no len()
-Infer for kosovo
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for serbia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for austria
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for luxembourg
-Infer net for voltage level 220000V
-object of type 'NoneType' has no len()
-Infer for greece
-Infer net for voltage level 150000V
-object of type 'NoneType' has no len()
-Infer for hungary
-Infer net for voltage level 120000V
-object of type 'NoneType' has no len()
-Infer for cyprus
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for turkey
-Infer net for voltage level 154000V
-object of type 'NoneType' has no len()
-Infer for italy
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for estonia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for lithuania
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Finding missing data
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for france
-Infer net for voltage level 150000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for slovakia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for norway
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for bosnia-herzegovina
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for great-britain
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for belarus
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for iceland
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for slovenia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for georgia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for czech-republic
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for belgium
-Infer net for voltage level 150000V
-object of type 'NoneType' has no len()
-Infer for spain
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for ukraine
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for netherlands
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for denmark
-Infer net for voltage level 132000V
-object of type 'NoneType' has no len()
-Infer for poland
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for finland
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for ireland-and-northern-ireland
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for moldova
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for sweden
-Infer net for voltage level 130000V
-object of type 'NoneType' has no len()
-Infer for latvia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for croatia
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for switzerland
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for bulgaria
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for germany 
-Infer for hessen
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for sachsen-anhalt
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for mecklenburg-vorpommern
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for nordrhein-westfalen
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for saarland
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for brandenburg
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for schleswig-holstein
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for bremen
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for niedersachsen
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for thueringen
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for berlin
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for baden-wuerttemberg
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for hamburg
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for bayern
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for rheinland-pfalz
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-Infer for sachsen
-Infer net for voltage level 110000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for northamerica 
-Infer for canada
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for mexico
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
 Running for ../results 
 Running for northamerica 
-Infer for wyoming
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for colorado
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for new-hampshire
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for washington
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for tennessee
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for iowa
-Infer net for voltage level 161000V
-object of type 'NoneType' has no len()
-Infer for nevada
-Infer net for voltage level 120000V
-object of type 'NoneType' has no len()
-Infer for maine
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for mississippi
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for oklahoma
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for delaware
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for minnesota
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for illinois
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for nebraska
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for arkansas
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for north-dakota
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for indiana
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for maryland
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for louisiana
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for idaho
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for arizona
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for wisconsin
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Finding missing data
-Infer for new-mexico
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for michigan
-Infer net for voltage level 120000V
-object of type 'NoneType' has no len()
-Infer for kansas
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for utah
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for virginia
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for new-york
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for new-jersey
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for connecticut
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for montana
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for california
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for south-dakota
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for vermont
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for georgia
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for pennsylvania
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for florida
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Finding missing data
-object of type 'NoneType' has no len()
-Infer for kentucky
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for rhode-island
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for north-carolina
-Infer net for voltage level 100000V
-object of type 'NoneType' has no len()
-Infer for oregon
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for south-carolina
-Infer net for voltage level 100000V
-object of type 'NoneType' has no len()
-Infer for west-virginia
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for missouri
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for ohio
-Infer net for voltage level 138000V
-object of type 'NoneType' has no len()
-Infer for alabama
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for texas
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-Infer for massachusetts
-Infer net for voltage level 115000V
-object of type 'NoneType' has no len()
-#################################################
+could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+
+Usage: Transnet.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -D DBNAME, --dbname=DBNAME
+                        database name of the topology network
+  -H DBHOST, --dbhost=DBHOST
+                        database host address of the topology network
+  -P DBPORT, --dbport=DBPORT
+                        database port of the topology network
+  -U DBUSER, --dbuser=DBUSER
+                        database user name of the topology network
+  -X DBPWRD, --dbpwrd=DBPWRD
+                        database user password of the topology network
+  -s SSID, --ssid=SSID  substation id to start the inference from
+  -p POLY, --poly=POLY  poly file that defines the region to perform the
+                        inference for
+  -b BOUNDING_POLYGON, --bpoly=BOUNDING_POLYGON
+                        defines the region to perform the inference for within
+                        the specified polygon in WKT, e.g.'POLYGON((128.74
+                        41.68, 142.69 41.68, 142.69 30.84, 128.74 30.84,
+                        128.74 41.68))'
+  -v, --verbose         enable verbose logging
+  -e, --evaluate        enable inference-to-existing-relation evaluation
+  -t, --topology        enable plotting topology graph
+  -V VOLTAGE_LEVELS, --voltage=VOLTAGE_LEVELS
+                        voltage levels in format 'level 1|...|level n', e.g.
+                        '220000|380000'
+  -l, --loadestimation  enable load estimation based on Voronoi partitions
+  -d DESTDIR, --destdir=DESTDIR
+                        destination of the inference results; results will be
+                        stored in directory transnet/models/<destdir>
+  -c CONTINENT, --continent=CONTINENT
+                        name of continent, options: 'africa', 'antarctica',
+                        'asia', 'australia-oceania', 'central-america',
+                        'europe', 'north-america', 'south-america'
+  -m MATLAB, --matlab=MATLAB
+                        run matlab for all countries in continent modeling
+  -j, --preparejson     prepare json files of planet
+  -g, --globe           run global commmands
+  -f, --findmissing     find missing data from OSM
+  -n, --closenodes      Include nodes close to station
+  -o, --overpass        Print overpass string
